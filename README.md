@@ -1,16 +1,40 @@
-# React + Vite
+# 🔍 Buscador de Github
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://raw.githubusercontent.com/CassianoBC/github-searcher/refs/heads/main/public/readme-img.png)
 
-Currently, two official plugins are available:
+Um buscador de perfis do GitHub, consumindo a API pública do GitHub.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias
 
-## React Compiler
+React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+TailwindCSS
 
-## Expanding the ESLint configuration
+API pública do GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Funcionalidades
+
+🔎 Buscar usuários do GitHub por nome
+
+👤 Visualizar informações básicas do perfil
+
+⚡ Interface rápida e responsiva
+
+## 🧠 Como funciona
+
+Este projeto consome a API pública do GitHub para buscar dados de usuários em tempo real. Ao digitar um nome, é feita uma requisição HTTP para:
+
+https://api.github.com/users/{username}
+
+## 🛠️ Como rodar o projeto
+### Clone o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
+
+#### Entre na pasta
+cd seu-repo
+
+### Instale as dependências
+npm install
+
+### Rode o projeto
+npm run dev
