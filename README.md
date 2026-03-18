@@ -27,14 +27,26 @@ Este projeto consome a API pública do GitHub para buscar dados de usuários em 
 https://api.github.com/users/{username}
 
 ## 🛠️ Como rodar o projeto
-### Clone o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
+1. **Clone o repositório:**
+   
+   ```bash
+   https://github.com/CassianoBC/github-searcher.git
+   ```
+   
+2. **Entre na pasta**
 
-#### Entre na pasta
-cd seu-repo
+    ```bash
+   cd github-searcher
+   ```
 
-### Instale as dependências
-npm install
+3. **Instale as dependências**
 
-### Rode o projeto
-npm run dev
+    ```bash
+   npm install
+   ```
+  
+4. **Rode o projeto**
+
+      ```bash
+   npm run dev
+   ```
